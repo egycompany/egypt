@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/project.css">
+
+</head>
+<body>
+    <div>
+        <img style="height: 60vh;" class="w-100" src="image/301316905_120702444051984_3021260949271218944_n.jpg" alt="">
+    </div>     
+    <div class="container-fluid">
+        <input onkeyup="searchProduct()" id="searchInput" class="w-50 mx-auto form-control my-4" placeholder="The Company's name" type="text" name="">
+        <table class="container-fluid table w-75 m-auto py-5 text-center">
+            <thead >
+                <th>name</th>
+                <th>status</th>
+            </thead>
+            <tbody id="tablebody"></tbody>
+        </table>
+    </div>
+
+
+    <script src="js/project.js"></script>
+</body>
+</html>
