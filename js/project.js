@@ -3,7 +3,7 @@ var searchInput = document.getElementById("searchInput");
 
 var Company =[
     {name:"maran_atha",status:"محظورة",reason:""},
-    {name:"sbs",status:"محظورة",reason:"اكل حقوق مهندسين كتير ولحد النهاردة مخدوهاش"},
+    {name:"sbs",status:"محظورة",reason:""},
     {name:"MIG",status:"محظورة",reason:""},
     {name:"visiondivision",status:"محظورة",reason:""},
     {name:"ميتال كلادنج",status:"محظورة",reason:""},
@@ -208,6 +208,7 @@ function displayProduct() {
         odda += `<tr>
                     <td>${Company[i].name}</td>
                     <td>${Company[i].status}</td>
+                    <td><a href="https://www.facebook.com/profile.php?id=100083366859102">Open FaceBook Page to see it</a></td>
                 </tr>`
     }
     document.getElementById("tablebody").innerHTML = odda ;
@@ -232,6 +233,7 @@ function searchProduct()
         odda += `<tr>
                     <td>${wantedCompany[i].name}</td>
                     <td>${wantedCompany[i].status}</td>
+                    <td><a href="https://www.facebook.com/profile.php?id=100083366859102">Open FaceBook Page to see it</a></td>
                 </tr>`
     }
         document.getElementById("tablebody").innerHTML = odda ;
