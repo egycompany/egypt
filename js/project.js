@@ -208,7 +208,7 @@ function displayProduct() {
         odda += `<tr>
                     <td>${Company[i].name}</td>
                     <td>${Company[i].status}</td>
-                    <td><a href="https://www.facebook.com/profile.php?id=100083366859102">Open FaceBook Page to see it</a></td>
+                    <td><a href="https://www.facebook.com/profile.php?id=100083366859102">FaceBook Page</a></td>
                 </tr>`
     }
     document.getElementById("tablebody").innerHTML = odda ;
@@ -233,7 +233,7 @@ function searchProduct()
         odda += `<tr>
                     <td>${wantedCompany[i].name}</td>
                     <td>${wantedCompany[i].status}</td>
-                    <td><a href="https://www.facebook.com/profile.php?id=100083366859102">Open FaceBook Page to see it</a></td>
+                    <td><a href="https://www.facebook.com/profile.php?id=100083366859102">FaceBook Page</a></td>
                 </tr>`
     }
         document.getElementById("tablebody").innerHTML = odda ;
