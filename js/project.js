@@ -224,8 +224,7 @@ function searchProduct()
         if (Company[i].name.toLowerCase().includes(term.toLowerCase())) 
         {
             wantedCompany.push(Company[i])
-        }
-        
+        }       
     }
     var odda=''
     for (var i = 0; i < wantedCompany.length; i++) 
@@ -236,6 +235,5 @@ function searchProduct()
                     <td><a href="https://www.facebook.com/profile.php?id=100083366859102">FaceBook Page</a></td>
                 </tr>`
     }
-        document.getElementById("tablebody").innerHTML = odda ;
-    
+        document.getElementById("tablebody").innerHTML = odda ;  
 };
