@@ -237,4 +237,5 @@ function searchProduct()
                 </tr>`
     }
         document.getElementById("tablebody").innerHTML = odda ;
+    
 };
