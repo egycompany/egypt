@@ -2,8 +2,8 @@ var searchInput = document.getElementById("searchInput");
 
 
 var Company =[
-    {name:"maran_atha",status:"محظورة",reason:""},
     {name:"good Shepherd",status:"محظورة",reason:""},
+    {name:"maran_atha",status:"محظورة",reason:""},
     {name:"sbs",status:"محظورة",reason:""},
     {name:"MIG",status:"محظورة",reason:""},
     {name:"visiondivision",status:"محظورة",reason:""},
