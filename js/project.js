@@ -2,6 +2,7 @@ var searchInput = document.getElementById("searchInput");
 
 
 var Company =[
+    {name:"الصفا",status:"محظورة",reason:""},
     {name:"maran_atha",status:"محظورة",reason:""},
     {name:"sbs",status:"محظورة",reason:""},
     {name:"MIG",status:"محظورة",reason:""},
