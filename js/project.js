@@ -2,6 +2,8 @@ var searchInput = document.getElementById("searchInput");
 
 
 var Company =[
+    {name:"مكاتب دمياط",status:"محظورة",reason:""},
+    {name:"مكاتب بورسعيد",status:"محظورة",reason:""},
     {name:"الصفا للمقاولات",status:"محظورة",reason:""},
     {name:"maran_atha",status:"محظورة",reason:""},
     {name:"sbs",status:"محظورة",reason:""},
