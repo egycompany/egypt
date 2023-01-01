@@ -168,7 +168,7 @@ var Company =[
     {name:"مكتب عمارة اليوم احمد الإمام",status:"محظورة",reason:""},
     {name:"ايوبكو",status:"محظورة",reason:""},
     {name:"الاندلسية",status:"محظورة",reason:""},
-    {name:"ابوالهنا",status:"محظورة",reason:""},
+    {name:"ابوالهنا اوبال",status:"محظورة",reason:""},
     {name:"Constec كونستك",status:"محظورة",reason:""},
     {name:"ايهاف",status:"محظورة",reason:""},
     {name:"ماس للمقاولات والتوريدات",status:"محظورة",reason:""},
