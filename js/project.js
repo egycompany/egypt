@@ -211,6 +211,7 @@ var Company =[
     {name:"جارديان",status:"محظورة",reason:""},
     {name:"ماجيك_للاعمال_الهندسية",status:"محظورة",reason:""},
     {name:"SCAS",status:"محظورة",reason:""},
+    {name:"first air",status:"محظورة",reason:""},
     {name:"H construction",status:"محظورة",reason:""},
     {name:"ABGC",status:"محظورة",reason:""},
     {name:"بريليانت",status:"محظورة",reason:""},
