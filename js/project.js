@@ -281,7 +281,7 @@ var Company =[
     {name:"gmc",status:"محظورة",reason:""},
     {name:"هيبة للمقاولات hcc",status:"محظورة",reason:""},
     {name:"الشرق الأوسط للمقاولات",status:"محظورة",reason:""},
-    {name:"الجمعية العمومية ببراني",status:"محظورة",reason:""},
+    {name:"الجمعية التعاونية ببراني",status:"محظورة",reason:""},
     {name:"سيسترونك",status:"محظورة",reason:""},
     {name:"الهاشمية",status:"محظورة",reason:""},
     {name:"Pinnacle Construction Projects",status:"محترمة",reason:""},
