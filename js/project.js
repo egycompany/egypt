@@ -330,7 +330,7 @@ var Company =[
 
 
 
-function displayProduct() {
+function displayCompany() {
 
     var odda=''
     for (var i = 0; i < Company.length; i++) 
@@ -345,7 +345,7 @@ function displayProduct() {
 };
 
 
-function searchProduct() 
+function searchCompany() 
 {
     var term=searchInput.value;
     var wantedCompany=[]
