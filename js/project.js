@@ -269,6 +269,7 @@ var Company =[
     {name:"gid",status:"محظورة",reason:""},
     {name:"MCV",status:"محظورة",reason:""},
     {name:"ceb",status:"محظورة",reason:""},
+    {name:"ECB دكتور محمد عبدالغنى",status:"محظورة",reason:""},
     {name:"نصرية",status:"محظورة",reason:""},
     {name:"تبارك",status:"محظورة",reason:""},
     {name:"المركز القومى لبحوث الاسكان",status:"محظورة",reason:""},
