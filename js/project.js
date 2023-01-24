@@ -288,7 +288,6 @@ var Company =[
     {name:"Pinnacle Construction Projects",status:"محترمة",reason:""},
     {name:"نيوجيزه",status:"محترمة",reason:""},
     {name:"pillars  egypt",status:"محترمة",reason:""},
-    {name:"رواد  الهندسة  الحديثة ",status:"محترمة",reason:""},
     {name:"اليكون",status:"محترمة",reason:""},
     {name:"square",status:"محترمة",reason:""},
     {name:"اتريوم",status:"محترمة",reason:""},
