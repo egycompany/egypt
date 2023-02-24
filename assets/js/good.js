@@ -1,4 +1,4 @@
-var searchInput = document.getElementById("searchInput2");
+var searchInput2 = document.getElementById("searchInput2");
 var Company2 =[
     {name:"Pinnacle Construction Projects",status:"محترمة",reason:""},
     {name:"نيوجيزه",status:"محترمة",reason:""},
