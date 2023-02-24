@@ -3,8 +3,7 @@ var searchInput = document.getElementById("searchInput1");
 
 var Company1 =[
     {name:"مكاتب دمياط",status:"محظورة",reason:" مرتبات تعبانه وعدم احترام للمهندسين"},
-    {name:"مكاتب دمياط",status:"محظورة",reason:" مرتبات تعبانه وعدم احترام للمهندسين"},
-    {name:"مكاتب بورسعيد",status:"محظورة",reason:" "},
+    {name:"مكاتب بورسعيد",status:"محظورة",reason:" مرتبات تعبانه وعدم احترام للمهندسين"},
     {name:"الصفا للمقاولات",status:"محظورة",reason:""},
     {name:"maran  atha",status:"محظورة",reason:""},
     {name:"sbs",status:"محظورة",reason:"اكل حقوق مهندسين كتير ولحد النهاردة مخدوهاش"},
