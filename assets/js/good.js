@@ -41,7 +41,7 @@ function displayCompany2() {
     {
         odda += `<tr>
                     <td>${Company2[i].name}</td>
-                    <td>محترمة الى ان يثبت العكس</td>
+                    <td>-</td>
                 </tr>`
     }
     document.getElementById("good").innerHTML = odda ;
@@ -64,7 +64,7 @@ function searchCompany2()
     {
         odda += `<tr>
                     <td>${wantedCompany2[i].name}</td>
-                    <td>محترمة الى ان يثبت العكس</td>
+                    <td>-</td>
                 </tr>`
     }
         document.getElementById("good").innerHTML = odda ;  
