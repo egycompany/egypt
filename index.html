@@ -1,30 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-</head>
-<body>
-    <div>
-        <img style="height: 60vh;" class="w-100" src="image/301316905_120702444051984_3021260949271218944_n.jpg" alt="">
-        <h1 style="color: rgb(50, 9, 163);" class="text-center">صلِ على النبى</h1>
-        <h5 style="color: rgb(133, 89, 89);" class="text-center">الشركات المحترمة والمحظورة بمصر ومكاتب السفر المحظورة والشركات المحظورة بالخليج</h5>
-    </div>     
-    <div class="container-fluid">
-        <input onkeyup="searchCompany()" id="searchInput" class="w-50 mx-auto form-control my-4" placeholder="Search" type="text" name="">
-        <table class="table w-75 m-auto py-5 text-center"  border="5" bordercolor="grey">
-            <thead >
-                <th width="60%">name</th>
-                <th>status</th>
-                <th>reason</th>
-            </thead>
-            <tbody id="tablebody"></tbody>
-        </table>
-    </div>
-    <script src="js/project.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="I'm Front-end Developer and UI Designer from Tanta, Egypt, working
+    in web development. I enjoy turning complex problems into simple,
+    beautiful and intuitive designs."
+    />
+    <title>الشركات المحظورة والمحترمة</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/main.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="assets/css/css2.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body dir="rtl">
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/main.jpg"
+              alt="الشركات والمكاتب الهندسية المحظورة والمحترمة"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="">الشركات والمكاتب الهندسية <br> المحظورة والمحترمة</h1>
+
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+
+                <a href="https://www.facebook.com/profile.php?id=100083366859102" class="contact-link" 
+                  >الصفحة الرئيسية</a
+                >
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+
+                <a href="https://www.facebook.com/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%85%D9%83%D8%A7%D8%AA%D8%A8-%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D9%8A%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%D8%A7%D8%AA-112105171261575" class="contact-link" 
+                  > صفحة الاستفسارات </a
+                >
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+
+                <a href="https://www.facebook.com/profile.php?id=100089673382571" class="contact-link" 
+                  >    الصفحة البديلة</a
+                >
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+
+                <a href="https://www.facebook.com/profile.php?id=100077401967918" class="contact-link" 
+                  >    صفحة الخليج</a
+                >
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </aside>
+
+
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>الشركات المحظورة</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>الشركات المحترمة</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>مكاتب السفر المحظورة</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>الشركات المحظرة بالخارج</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="الشركات المحظورة">
+
+
+
+          <div id="content">
+            <div>
+              <input onkeyup="searchCompany1()" id="searchInput1"  placeholder=" بحث ..." type="text" name="">
+            </div>
+            <br>
+            <div>
+              <table  border="5" >
+                <thead >
+                    <th width="50%">إســــم</th>
+                    <th>الســـبب</th>
+                </thead>
+                <tbody id="badegy"></tbody>
+            </table>
+            </div>
+
+          </div>
+
+
+          
+
+
+
+
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img
+                  src="./assets/images/avatar-1.png"
+                  alt="Daniel lewis"
+                  width="80"
+                  data-modal-img
+                />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime="2022-12-05"></time>
+
+              <div data-modal-text>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="الشركات المحترمة">
+
+
+          <div id="content">
+            <div>
+              <input onkeyup="searchCompany2()" id="searchInput2"  placeholder=" بحث ..." type="text" name="">
+            </div>
+            <br>
+            <div>
+              <table  border="5" >
+                <thead >
+                    <th width="50%">إســــم</th>
+                    <th>الســـبب</th>
+                </thead>
+                <tbody id="good"></tbody>
+            </table>
+            </div>
+
+          </div>
+
+          
+
+
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="مكاتب السفر المحظورة">
+
+
+          <section class="projects">
+           
+
+              <span class="filter-select" data-select>
+
+              </span>
+
+
+
+            <div id="content">
+            <div>
+              <input onkeyup="searchCompany3()" id="searchInput3"  placeholder=" بحث ..." type="text" name="">
+            </div>
+            <br>
+            <div>
+              <table  border="5" >
+                <thead >
+                    <th width="50%">إســــم</th>
+                    <th>الســـبب</th>
+                </thead>
+                <tbody id="badoffice"></tbody>
+            </table>
+            </div>
+
+          </div>
+
+
+
+
+
+
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="الشركات المحظرة بالخارج">
+
+
+
+
+          <div id="content">
+            <div>
+              <input onkeyup="searchCompany4()" id="searchInput4"  placeholder=" بحث ..." type="text" name="">
+            </div>
+            <br>
+            <div>
+              <table  border="5" >
+                <thead >
+                    <th width="50%">إســــم</th>
+                    <th>الســـبب</th>
+                </thead>
+                <tbody id="badout"></tbody>
+            </table>
+            </div>
+
+          </div>
+
+
+
+
+
+
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="assets/js/badegy.js"></script>
+    <script src="assets/js/badoffice.js"></script>
+    <script src="assets/js/badout.js"></script>
+    <script src="assets/js/good.js"></script>
+  </body>
 </html>
