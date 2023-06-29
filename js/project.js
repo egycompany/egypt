@@ -122,7 +122,6 @@ var Company =[
     {name:"شركة دانه النخبة ترخيص 746",status:"محظورة",reason:""},
     {name:"شركة ابو عوف ترخيص 1040",status:"محظورة",reason:""},
     {name:"شركة اورينت ترخيص 45",status:"محظورة",reason:""},
-
     {name:"maran  atha",status:"محظورة",reason:""},
     {name:"sbs",status:"محظورة",reason:""},
     {name:"MIG",status:"محظورة",reason:""},
@@ -138,7 +137,6 @@ var Company =[
     {name:"اوبنتاون في مدينة نصر جنب السراج مول",status:"محظورة",reason:""},
     {name:"شركة وايتسكوير",status:"محظورة",reason:""},
     {name:"ابيك جلوبال epic global",status:"محظورة",reason:""},
-    
     {name:"sunriseEgypt",status:"محظورة",reason:""},
     {name:"wightsquare",status:"محظورة",reason:""},
     {name:"opentown",status:"محظورة",reason:""},
@@ -298,8 +296,6 @@ var Company =[
     {name:"الصفوة التجمع الخامس sud ",status:"محظورة",reason:""},
     {name:"سامكريت ",status:"محظورة",reason:""},
     {name:"مكتب ارك لاين",status:"محظورة",reason:""},
-
-    
     {name:"Pinnacle Construction Projects",status:"محترمة",reason:""},
     {name:"نيوجيزه",status:"محترمة",reason:""},
     {name:"pillars  egypt",status:"محترمة",reason:""},
@@ -333,8 +329,7 @@ var Company =[
     {name:"الفطيم كايروفيستفال التجمع",status:"محترمة",reason:""},
     {name:"شركة الشمس للمقاولات بمدينة نصر",status:"محترمة",reason:""},
     {name:"شركة Aepcon",status:"محترمة",reason:""},
-    {name:"شركة sev for contracting ",status:"محترمة",reason:""},
-
+    {name:"شركة sev for contracting ",status:"محترمة",reason:""}
 ];
 
 
