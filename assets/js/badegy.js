@@ -1,14 +1,14 @@
 var searchInput = document.getElementById("searchInput1");
 
-var Company11 = []
+var Company1 = []
 async function getRecipes1(term) {
-    let apiResponse = await fetch(`http://127.0.0.1:5000/category`)
+    let apiResponse = await fetch(`https://back-p181.onrender.com/category`)
     apiResponse = await apiResponse.json()
     Company1 = apiResponse.data['categories'].filter(elem=>elem.status=="محظورة") 
 }
 // getRecipes1()
 
-var Company1 =[
+var Company11 =[
     {name:"maran  atha",status:"محظورة",reason:""},
     {name:"sbs",status:"محظورة",reason:""},
     {name:"MIG",status:"محظورة",reason:""},
