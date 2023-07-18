@@ -1,6 +1,6 @@
 var searchInput = document.getElementById("searchInput2");
 
-var Company2 = []
+var Company22 = []
 async function getRecipes2(term) {
     let apiResponse = await fetch(`https://back-p181.onrender.com/category`)
     apiResponse = await apiResponse.json()
@@ -8,7 +8,7 @@ async function getRecipes2(term) {
 }
 // getRecipes2()
 
-var Company22 =[
+var Company2 =[
     {name:"Pinnacle Construction Projects",status:"محترمة",reason:""},
     {name:"نيوجيزه",status:"محترمة",reason:""},
     {name:"pillars  egypt",status:"محترمة",reason:""},
