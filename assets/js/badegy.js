@@ -7,7 +7,7 @@ async function getRecipes1(term) {
     Company1 = apiResponse.data['categories'].filter(elem=>elem.status=="محظورة") 
     console.log(Company1)
 }
-// getRecipes1()
+getRecipes1()
 
 var Company11 =[
     {name:"maran  atha",status:"محظورة",reason:""},
