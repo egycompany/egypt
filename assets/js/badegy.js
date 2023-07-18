@@ -5,7 +5,7 @@ async function getRecipes1(term) {
     let apiResponse = await fetch(`https://back-p181.onrender.com/category`)
     apiResponse = await apiResponse.json()
     Company1 = apiResponse.data['categories'].filter(elem=>elem.status=="محظورة") 
-    console.log(Company11)
+    console.log(Company1)
 }
 // getRecipes1()
 
