@@ -1,14 +1,14 @@
 var searchInput = document.getElementById("searchInput2");
 
-var Company22 = []
+var Company2 = []
 async function getRecipes2(term) {
-    let apiResponse = await fetch(`http://127.0.0.1:5000/category`)
+    let apiResponse = await fetch(`https://back-p181.onrender.com/category`)
     apiResponse = await apiResponse.json()
     Company2 = apiResponse.data['categories'].filter(elem=>elem.status=="محترمة") 
 }
 // getRecipes2()
 
-var Company2 =[
+var Company22 =[
     {name:"Pinnacle Construction Projects",status:"محترمة",reason:""},
     {name:"نيوجيزه",status:"محترمة",reason:""},
     {name:"pillars  egypt",status:"محترمة",reason:""},
